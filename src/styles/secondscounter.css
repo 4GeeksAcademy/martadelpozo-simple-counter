@@ -1,0 +1,38 @@
+.seconds-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    padding: 15px 0px;
+  }
+
+  .clock-icon {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .digit-box {
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 10px;
+    width: 56px;
+    text-align: center;
+  }
+  
+  .digit-box:first-child {
+    margin-left: 0;
+  }
+  
+  .digit-box:last-child {
+    margin-right: 0;
+  }
