@@ -34,3 +34,5 @@ setInterval (function(){
   );
 
 }, 1000);
+
+export default SimpleCounter;
